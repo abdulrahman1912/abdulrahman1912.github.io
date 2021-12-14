@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style3.css">
+    <title>Mental Haven</title>
+</head>
+
+<body>
+    <nav>
+        <div class="mobile-container">
+            <div class="topnav">
+                <a href="./index.html" class="active"><img src="./img/Mental-haven.jpg" alt=""></a>
+                <div id="myLinks">
+                    <li><a href="./index.html">Home</li></a>
+                    <li><a href="./contact.html">Contact</li></a>
+                    <li><a href="./about.html">About Us</li></a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i style="font-size: 25px;" class="bi bi-menu-button-wide"></i>
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="./index.html"><img src="./img/Mental-haven.jpg" alt=""></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</li></a>
+                    <li><a href="./contact.html">Contact</li></a>
+                    <li><a href="./about.html">About Us</li></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="content">
+            <div class="head">
+                <div class="head1">
+                    <div class="head-heading">
+                        Contact Us
+                    </div>
+                    <div class="head-info">
+                    <p> This is an avenue where our patients can tell us how they feel about our services. Feel free to lay your complaints as it would be addressed with utmost attention as is required of us. Your suggestions and complaints help us get better and improve our standards. You can also make use of the contact form if you want to book a visit. All you need to do is fill out the form below and you receive an instant feed-back containing information on how to proceed. Hope to serve you better.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact" id="contact">
+        <div class="content">
+            <form action="" class="">
+                <div class="heading">
+                    Contact Form
+                </div>
+                <div class="form-content">
+                    <div class="two-column">
+                        <div class="column">
+                            <div class="input-container">
+                                <label for="">Your Name</label>
+                                <input type="text" placeholder="e.g John Doe">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Your Email</label>
+                                <input type="text" placeholder="e.g seundavid12@gmail.com">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="">Subject</label>
+                                <input type="tel">
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="input-container">
+                                <label for="">Message</label>
+                                <textarea name="" id=""></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-submit">
+                    <button>Send Message</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <div class="contact-footer">
+        <div class="content">
+            <div class="contact-info">
+                <div class="book">
+                    <div class="book-head">
+                        Book A Visit
+                    </div>
+                    <div class="tel1">
+                        <i id="tel" class="bi bi-phone-fill"></i> Telephone 1: <br> +234 815-306-1234
+                    </div>
+                    <div class="tel2">
+                        <i id="tel" class="bi bi-phone-fill"></i> Telephone 2: <br> +234 815-306-1234
+                    </div>
+                    <div class="email">
+                        <i id="mail" class="bi bi-envelope-fill"></i> Email Address: <br> contact@mentalhaven.com
+                    </div>
+
+
+                </div>
+                <div class="service">
+                    <div class="service-head">
+                        Service
+                    </div>
+                    <div class="about">
+                        <a href=""> About Us</a>
+                    </div>
+                    <div class="s-contact">
+                       <a href=""> Contact </a>
+                    </div>
+                    <div class="terms">
+                       <a href=""> Terms & Conditions</a>
+                    </div>
+                    <div class="privacy">
+                      <a href="">  Privacy & Policy </a>
+                    </div>
+                </div>
+
+                <div class="check">
+                    <div class="check-head">
+                        Check This
+                    </div>
+                    <div class="join">
+                       <a href=""> Join us as a Psychologist</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <div class="follow">
+                        Follow us on
+                    </div>
+                    <ul class="links">
+                        <li><a href="https://facebook.com/"> <i id="link-icon1" class="bi bi-facebook"></i> </a></li>
+                        <li><a href="https://twitter.com/"> <i id="link-icon2" class="bi bi-instagram"></i></a> </li>
+                        <li><a href="https://instagram.com/"> <i id="link-icon2" class="bi bi-twitter"></i></a> </li>
+                    </ul>
+                </div>
+              
+            </div>
+
+        </div>
+        <div class="contact-logo">
+           &copy;Mental Haven
+        </div>
+        
+    </div>
+
+
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
