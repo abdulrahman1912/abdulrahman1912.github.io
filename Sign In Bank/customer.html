@@ -47,7 +47,7 @@
                         <div class="column">
                             <div class="input-container">
                                 <label for="">Message</label>
-                                <textarea name="" id=""></textarea>
+                                <textarea name="" id="textarea"></textarea>
                             </div>
                         </div>
     
@@ -56,7 +56,7 @@
                 
                 <center>
                     <div class="confirm-btn">
-                        <a href=""><button>Send Message</button></a>
+                        <button>Send Message</button>
                     </div>
                 </center>
 
@@ -64,6 +64,19 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let input = document.querySelector('#complaint-name');
+        let textarea = document.querySelector('#textarea')
+        let button = document.getElementsByTagName('button')[0];
+        button.addEventListener('click', ()=>{
+            let obj = JSON.stringify({
+                header: input.value,
+                body: textarea.value
+            })
+            alert("Your complaint has been sent \n" + obj);
+        })
+    </script>
 </body>
 
 </html>
